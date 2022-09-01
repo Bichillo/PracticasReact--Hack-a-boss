@@ -1,0 +1,15 @@
+.counter-button {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 2px;
+  margin: 5px;
+}
+
+.counter-button span {
+  padding: 3px 5px;
+}
+
+.counter-button .right {
+  border-left: 1px solid #aaa;
+}

@@ -1,0 +1,15 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+  transition: all 0.5s
+}
+
+header.not-up {
+  background-color: #ccc;
+  padding: 3px
+}

@@ -1,0 +1,21 @@
+.App {
+  background-color: #292730;
+  color: white;
+  height: 100%;
+}
+
+.App header {
+  background-color: #767286;
+  box-shadow: 0px 0px 5px black;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.App header .user-section {
+  display: flex;
+}
+
+.App main {
+  padding: 20px;
+}

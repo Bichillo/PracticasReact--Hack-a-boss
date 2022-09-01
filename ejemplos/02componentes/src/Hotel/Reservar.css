@@ -1,0 +1,13 @@
+.reservar {
+  background-color: #aaf;
+  border: 1px solid #66f;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 20px;
+  margin: 10px auto;
+  width: 200px;
+}
+
+.reservar h3 {
+  margin: 0;
+}

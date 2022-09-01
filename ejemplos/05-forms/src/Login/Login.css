@@ -1,0 +1,23 @@
+#login {
+  text-align: center;
+  min-height: 130px;
+  width: 260px;
+}
+
+#login h1 {
+  margin: 0 auto 10px;
+}
+
+#login label {
+  display: flex;
+  justify-content: space-between;
+}
+
+#login input {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+#login .error {
+  color: #bf0000;
+}

@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App.available .status {
+  color: green;
+}
+
+.App.not-available .status {
+  color: red;
+}
+
+.products .price {
+  font-style: italic;
+}
+
+.products .product,
+.characters .character {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  vertical-align: top;
+  width: 200px;
+}
+
+.products .product h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.products .product img {
+  width: 180px;
+  height: 180px;
+}
+
+.image {
+  height: 180px;
+  width: 180px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.products .featured {
+  color: red;
+  font-size: 80%;
+}
+
+.character .status.Alive {
+  color: green;
+}
+
+.character .status.Dead {
+  color: red;
+}
+
+.character .status.unknown {
+  color: orange;
+}

@@ -1,0 +1,13 @@
+.noticias.paywall main {
+  opacity: 0.5
+}
+
+.noticias .message {
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  left: 40%;
+  right: 40%;
+  z-index: 1;
+  margin-top: 16px;
+}
