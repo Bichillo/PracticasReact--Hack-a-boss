@@ -1,0 +1,32 @@
+.products .product {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  vertical-align: top;
+  width: 200px;
+}
+
+.products .product h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.products .product img {
+  width: 180px;
+  height: 180px;
+}
+
+.products .image {
+  height: 180px;
+  width: 180px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.products .featured {
+  color: red;
+  font-size: 80%;
+}

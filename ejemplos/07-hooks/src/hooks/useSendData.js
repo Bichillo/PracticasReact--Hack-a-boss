@@ -4,10 +4,10 @@ const useSendData = (url) => {
   const [status, setStatus] = useState('')
   const [response, setResponse] = useState()
 
-  const sendData = async (data) => {
+  const sendData = async (data, method = 'POST') => {
     setStatus('loading')
     const res = await fetch(url, {
-      method: 'POST',
+      method: method,
       headers: {
         'Content-Type': 'application/json'
       },
@@ -15,10 +15,10 @@ const useSendData = (url) => {
     })
     const resData = await res.json()
     setResponse(resData)
-    if (resData.error) {
-      setStatus('error')
-    } else {
+    if (res.ok) {
       setStatus('success')
+    } else {
+      setStatus('error')
     }
   }
   return [status, response, sendData]

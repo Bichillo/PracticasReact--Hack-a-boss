@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import Todo from './Todo/Todo';
+import Header from './Header/Header';
+import { useTheme } from './ThemeContext';
 import './App.css';
+import Posts from './Posts/Posts';
+import Products from './Products/Products';
 
 function App() {
+  const theme = useTheme()
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className={'App ' + theme}>
+        <Header />
+        <main>
+          <Todo />
+          <Posts />
+          <Products />
+        </main>
+      </div>
   );
 }
 

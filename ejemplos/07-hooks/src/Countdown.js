@@ -1,7 +1,7 @@
 import useCountdown from "./hooks/useCountdown"
 
-function Countdown() {
-  const t = useCountdown()
+function Countdown({ seconds = 10 }) {
+  const t = useCountdown(seconds)
 
   return (
     <div>

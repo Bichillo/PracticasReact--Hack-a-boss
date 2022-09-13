@@ -1,0 +1,21 @@
+.posts {
+  border: 1px solid #ccc;
+  width: 320px;
+  height: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.posts h2 {
+  margin: 0;
+}
+
+.posts .post {
+  margin-bottom: 20px;
+}
+
+.posts img {
+  max-width: 300px;
+  max-height: 300px;
+}

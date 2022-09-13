@@ -1,0 +1,63 @@
+.App {
+  background-color: #292730;
+  color: white;
+  min-height: 100vh;
+}
+
+.App a {
+  color: white;
+  text-decoration: none;
+}
+
+.App a.active {
+  text-decoration: underline;
+}
+
+.App header {
+  background-color: #767286;
+  box-shadow: 0px 0px 5px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.App header h1 {
+  margin: 0;
+  font-size: 120%;
+}
+
+.App header .links a {
+  margin: 0 5px;
+}
+
+.App header .user-section {
+  display: flex;
+}
+
+.App header .logout {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.App main {
+  padding: 53px 20px 20px;
+}
+
+.with-subsections {
+  display: flex
+}
+
+.with-subsections aside {
+  flex: 0 0 150px;
+  border-right: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.with-subsections aside+div {
+  flex: 1 1 auto;
+}

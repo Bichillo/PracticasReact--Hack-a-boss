@@ -1,0 +1,23 @@
+#signup {
+  text-align: center;
+  min-height: 130px;
+  width: 260px;
+}
+
+#signup h1 {
+  margin: 0 auto 10px;
+}
+
+#signup label {
+  display: flex;
+  justify-content: space-between;
+}
+
+#signup input {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+#signup .error {
+  color: #bf0000;
+}
